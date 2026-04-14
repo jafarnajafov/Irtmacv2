@@ -25,7 +25,7 @@ const Customers = ({ customers, customers_text, customers_long }) => {
               {customers_long}
             </p>
           </div>
-          <div className="mt-[40px]">
+          <div className="mt-[40px] relative lg:pb-[60px]">
             <SwiperSlider customers={customers} />
           </div>
         </MaxWidth>

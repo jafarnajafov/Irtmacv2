@@ -88,14 +88,14 @@ const SwiperSlider = ({ customers }) => {
       </Swiper>
       <button
         onClick={handlePrev}
-        className="absolute top-1/2 lg:top-[80%] left-[100px] 2xl:left-[30px] translate-y-[57%] z-10 w-[35px] h-[35px] bg-white rounded-full flex items-center justify-center shadow-md border border-[#009ade] transition-colors duration-300"
+        className="absolute top-1/2 lg:top-auto lg:bottom-[-50px] left-[100px] 2xl:left-[30px] lg:left-[calc(50%-45px)] translate-y-[-50%] lg:translate-y-0 z-10 w-[35px] h-[35px] bg-white rounded-full flex items-center justify-center shadow-md border border-[#009ade] transition-colors duration-300"
       >
         <ArrowIcon className="w-6 h-6 text-blue-500 transform rotate-180" />
       </button>
 
       <button
         onClick={handleNext}
-        className="absolute top-1/2 lg:top-[80%]  right-[100px] 2xl:right-[30px] translate-y-[57%] z-10 w-[35px] h-[35px] bg-white rounded-full flex items-center justify-center shadow-md border border-[#009ade] hover:bg-gray-100 transition-colors duration-300"
+        className="absolute top-1/2 lg:top-auto lg:bottom-[-50px] right-[100px] 2xl:right-[30px] lg:right-[calc(50%-45px)] translate-y-[-50%] lg:translate-y-0 z-10 w-[35px] h-[35px] bg-white rounded-full flex items-center justify-center shadow-md border border-[#009ade] hover:bg-gray-100 transition-colors duration-300"
       >
         <ArrowIcon className="w-6 h-6 text-blue-500" />
       </button>
