@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rm -rf .next && next dev",
-    "build": "rm -rf .next --force && next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "NEXT_DISABLE_SWC_NATIVE=1 next dev",
+    "build": "NEXT_DISABLE_SWC_NATIVE=1 next build",
+    "start": "NEXT_DISABLE_SWC_NATIVE=1 next start"
   },
   "dependencies": {
     "@chakra-ui/next-js": "^2.2.0",
@@ -21,7 +20,7 @@
     "i18next-browser-languagedetector": "^8.0.0",
     "isomorphic-dompurify": "^2.24.0",
     "lightbox.js-react": "^1.0.9",
-    "next": "14.2.4",
+    "next": "^13.5.6",
     "next-i18next": "^15.3.0",
     "react": "^18",
     "react-dom": "^18",

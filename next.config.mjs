@@ -16,11 +16,7 @@ const nextConfig = {
         }, ];
     },
     reactStrictMode: false,
-    experimental: {
-        missingSuspenseWithCSRBailout: false,
-        legacyBrowsers: false, // Köhnə brauzerlər üçün dəstəyi söndürür
-        modern: true, // Müasir JS istifadəsini aktiv edir
-    },
+  
 
 };
 
