@@ -24,7 +24,7 @@ const HomeVideo = ({ data, params, readmore }) => {
               </div>
               <span className="flex w-[1px] h-full bg-[#0071CE] ml-[80px] lg:ml-[30px] md:hidden" />
             </div>
-            <div className="col-span-9 lg:col-span-12 text-white lg:mt-[30px] md:mt-[20px] ">
+            <div className="col-span-9 lg:col-span-12 text-white md:mt-[40px] ">
               <div className="flex flex-col relative z-40">
                 <h3 className="text-white text-[38px]  2xl:text-[25px] md:text-[18px] font-['TTForsTrial-Medium'] ">
                   {data?.title}

@@ -26,7 +26,7 @@ const NewsItem = ({
           src={img}
           alt={name}
           priority
-          className="img-fluid h-[240px] lg:h-[200px] md:h-[220px] rounded-[20px] "
+          className="img-fluid h-[240px] rounded-[20px] "
         />
         <div className=" flex flex-col pt-[16px]  justify-between  relative overflow-hidden  h-full">
           <Link

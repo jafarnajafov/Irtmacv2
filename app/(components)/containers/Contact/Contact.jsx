@@ -59,7 +59,7 @@ const Contact = ({
               referrerPolicy="no-referrer-when-downgrade"
               className="w-full h-[500px] lg:h-[300px] overflow-hidden rounded-[20px]"
             ></iframe>
-            <span className="w-[900px] xl:w-[600px] lg:w-[80%] md:w-[calc(100%-40px)] px-[30px] py-[12px] css-box-shadow font-semibold absolute bottom-[40px] left-1/2 z-30 -translate-x-1/2 flex items-center justify-center text-[24px] lg:text-[18px] md:text-[14px] text-[#002d74] bg-[#fff] rounded-[90px] text-center">
+            <span className="w-[900px] lg:w-max lg:px-[50px] md:px-[20px] py-[12px] css-box-shadow font-semibold absolute bottom-[40px] left-1/2 z-30 -translate-x-1/2 flex items-center justify-center text-[24px] lg:text-[18px] md:text-[14px] text-[#002d74] bg-[#fff] rounded-[90px]">
               {grafig}
             </span>
           </div>
