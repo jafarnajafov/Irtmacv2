@@ -9,7 +9,7 @@
     font-style: bold;
     font-weight: 400;
     font-display: swap;
-    src: url("../public/font/TTForsTrial-Bold.woff2") format('woff2');
+    src: url("/font/TTForsTrial-Bold.woff2") format('woff2');
   }
 
   @font-face {
@@ -17,7 +17,7 @@
     font-style: extra-bold;
     font-weight: 600;
     font-display: swap;
-    src: url("../public/font/TTForsTrial-ExtraBold.woff2") format('woff2');
+    src: url("/font/TTForsTrial-ExtraBold.woff2") format('woff2');
   }
 
   @font-face {
@@ -25,7 +25,7 @@
     font-style: medium;
     font-weight: 300;
     font-display: swap;
-    src: url("../public/font/TTForsTrial-Medium.woff2") format('woff2');
+    src: url("/font/TTForsTrial-Medium.woff2") format('woff2');
   }
 
   @font-face {
@@ -33,7 +33,7 @@
     font-style: regular;
     font-weight: 200;
     font-display: swap;
-    src: url("../public/font/TTForsTrial-Regular.woff2") format('woff2');
+    src: url("/font/TTForsTrial-Regular.woff2") format('woff2');
   }
 
 }

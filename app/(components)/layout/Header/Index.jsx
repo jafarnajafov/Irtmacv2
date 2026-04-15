@@ -9,7 +9,6 @@ import { FaChevronUp } from "react-icons/fa";
 import Lang from "./Lang";
 import Search from "../../global_containers/Search";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import DOMPurify from "isomorphic-dompurify";
 import MaxWidth from "../../MaxWidth/MaxWidth";
 const Header = ({ params, data_translate, data_footer }) => {
   const [scrolledFromTop, setScrollTop] = useState(false);
