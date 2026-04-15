@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import SearchPage from "@/app/(components)/containers/Search/Search";
 import Footer from "@/app/(components)/layout/Footer/Index";
 import Header from "@/app/(components)/layout/Header/Index";
@@ -48,11 +49,13 @@ export default async function page({ params }) {
         data_translate={data_translate}
         data_footer={data_footer}
       />
-      <SearchPage
-        params={params}
-        found={data_translate?.found}
-        found2={data_translate?.found2}
-      />
+      <Suspense fallback={null}>
+        <SearchPage
+          params={params}
+          found={data_translate?.found}
+          found2={data_translate?.found2}
+        />
+      </Suspense>
       <Footer data={data_footer} params={params} />
     </>
   );
